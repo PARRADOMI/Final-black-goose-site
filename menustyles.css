@@ -8,7 +8,7 @@ body {
     line-height: 1.6;
     margin: 0 auto;
     padding: 0;
-    background: #f9f6f2 url('/images/blackgoose\ \(1\).png') no-repeat center top;
+    background: #f9f6f2 url('images/blackgoose\ \(1\).png') no-repeat center top;
     background-attachment: fixed;
     color: #333;
 }
