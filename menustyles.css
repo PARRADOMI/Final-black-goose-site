@@ -1,0 +1,136 @@
+/* Custom Font */
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+
+/* Body Styles */
+body {
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 auto;
+    padding: 0;
+    background: #f9f6f2 url('/images/blackgoose\ \(1\).png') no-repeat center top;
+    background-attachment: fixed;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    position: relative;
+    z-index: 2;
+    padding: 3em 1em 2em 1em;
+    text-align: center;
+    background: rgba(253, 240, 227, 0.5); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font: bold 3em 'Marko One', Georgia, serif;
+    color: #6D597A;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 1.8em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #cc6600;
+}
+
+/* Navigation Styles */
+#info p {
+    font-style: italic;
+    color: #888;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1em 0;
+}
+
+ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+/* Link Styles */
+a {
+    text-decoration: none;
+    color: #6D597A;
+    font-weight: bold; 
+    border-bottom: 1px solid transparent; 
+    transition: color 0.3s ease, border-color 0.3s ease; 
+}
+
+a:hover {
+    color: #cc6600; 
+    border-color: #cc6600;
+}
+
+a:visited {
+    color: #bbb1c2; 
+}
+
+a:focus,
+a:active {
+    outline: none; 
+    color: #cc6600; 
+    border-color: #cc6600;
+}
+
+
+/* Section Styles */
+section {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+dl {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+dt {
+    font-weight: bold;
+    color: #6D597A;
+    margin-top: 30px;
+}
+
+dd {
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-style: italic;
+    color: #cc6600;
+}
+
+
+.warning {
+    font-size: 1em;
+    color: #fff;
+}
+
+sup {
+    font-size: 1em;
+    color: #fff;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #6D597A;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.section-separator {
+    border-top: 2px solid #cc6600; 
+    margin: 30px auto; 
+    max-width: 80%;
+}
